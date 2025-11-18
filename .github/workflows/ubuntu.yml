@@ -24,7 +24,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: ubuntu-desktop
-        file: ./Dockerfile
+        file: ./${{env.UBUNTU_VERSION}}/Dockerfile
         platforms: linux/amd64
         push: true
         tags: ShaobaiLee/docker-ubuntu-desktop:${{env.UBUNTU_VERSION}}
