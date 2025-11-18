@@ -27,4 +27,4 @@ jobs:
         file: ubuntu-desktop/${{env.UBUNTU_VERSION}}/Dockerfile
         platforms: linux/amd64
         push: true
-        tags: ShaobaiLee/docker-ubuntu-desktop:${{env.UBUNTU_VERSION}}
+        tags: xpy2025/ubuntu-desktop:${{env.UBUNTU_VERSION}}
